@@ -1,0 +1,249 @@
+
+.searchHeader{
+    width : 100%;
+    overflow-y: hidden; 
+  overflow-x: hidden;
+  }
+/* .container::after{
+    content: "\a";
+    white-space: pre;
+} */
+.container{
+    width : 100%;
+}  
+.innerHeader{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ff742b;
+    height: 90px;
+    padding: 4px;
+    position: relative;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+     overflow : hidden
+    
+}
+.headerImg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex: 1 0 180px;
+    max-width: 180px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    display : inline;
+    vertical-align: middle;
+    float : left
+}
+.header_label {
+    color: #000;
+    font-size: 26px;
+    line-height: 1;
+    display : inline;
+    padding-left: 20px;
+    padding-top: 45px;
+    padding-right: 20px;
+    float : left;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.SearchInput{
+    width : 1500px;
+    height : 70px;
+/*min-width : 40rem;*/
+    font-size : 1.4rem;
+    text-transform : capitalize;
+    border:none;
+    outline : none ;
+    padding-left : 0px;
+    margin-left : -140px;
+    color : black;
+    font-family: Verdana,Geneva,sans-serif;
+    text-decoration-color: #000;
+   
+
+}
+
+.SearchInput ::placeholder{
+   /* color : black; */
+   font-family: Verdana,Geneva,sans-serif;
+   text-decoration-color: #000;
+}
+
+.linkLogo{
+    line-height: 1em !important; 
+    display: inline 
+
+}
+.searchBy{
+    height : 200px !important;
+    font-size: 17px;
+    margin-top : 8px;
+    margin-right : 2px;
+    display: inline
+    
+}
+
+ .PoweredBy{
+    align-items: centre;
+    right : 18px;
+    box-sizing : border-box;
+    color: rgba(33,36,61,.5);
+    font-size: 18px;
+    margin-left : 1050px;
+    margin-right : 100px;
+    padding-bottom: 200px;
+    white-space: nowrap;
+    position: absolute; 
+    top: 50%;
+    user-select: none;
+    align-items: centre;
+   
+     
+}
+.filters{
+    padding-right : 20px;
+    padding-left : 20px;
+    margin-left : 20px;
+    margin-right : 20px;
+    height : 55px;
+    margin-top : 10px;
+    font-size: 24px ;
+    background-color: rgb(214, 210, 210);
+    border-color: #000;
+   
+   border-radius: 5%;
+    box-shadow: inset;
+}
+
+.user {
+    width : 70px;
+    height : 70px;
+    border : none;
+    position: absolute;
+    border-color: white;
+    top: 9px;
+    left: 12px;
+    font-size: 24px;
+    pointer-events: none;
+    background-color: white;
+    margin-top : -9px;
+    margin-left : -222px;
+    padding-top : -10px;
+    font-family: "Font Awesome 5 free"; 
+    font-weight: 900;
+    
+}
+.user svg{
+    width : 30px;
+    height: 30px;
+    color : orange;
+    font-family: Verdana,Geneva,sans-serif;
+
+}
+
+
+
+/* .user::before {
+    width : 70px;
+    height : 70px;
+    color: #ff742b;
+    font-family: "Font Awesome 5 free"; 
+    font-weight: 400;
+    content: '\f007';
+    font: var(--fa-font-regular);
+} */
+ 
+.searchInputHeader{
+    /* width: calc(100% - 160px); */
+    margin-left : -100px;
+    position: relative;
+    display: inline-block;
+    margin-right: -220px;
+    color: #000;
+    font-family: Verdana,Geneva,sans-serif;
+   
+}
+
+.settingsText{
+    height:70px;
+    width : 150px;
+    margin-top: 32px;
+    margin-left : -70px;
+    padding-left : 0px;
+    padding-bottom: 0px;
+   padding-top: 0px;
+   margin-bottom: 0px;
+   float:right;
+   font-size: 28px;
+   color:#000;
+   text-decoration : none;
+    
+   /* position: relative; */
+   
+}
+
+/* .header_setting {
+     margin-bottom: -30px; 
+    width : 250px;
+    height : 70px;
+    color : black !important;
+    text-decoration: none;
+    font-size: 28px;
+    margin-right:20px;
+    margin-left : -230px;
+    margin-bottom: 40px;
+    font-family: Verdana,Geneva,sans-serif;
+    text-align: center;
+    display: block;
+   
+} */
+
+.settingIcon{
+   width : 70px;
+   height : 70px;
+   margin-top: 0px;
+   padding-top : 25px;
+   margin-left : -140px;
+   margin-right : 0px;
+   margin-bottom: -40px;
+   border-bottom: none;
+   border-right: none;
+   background-color: #ff742b;
+   border-color: #ff742b;
+   text-decoration: none;
+   text-shadow: none;
+}
+
+.muiIcons{
+    transform: scale(0.8);
+}
+
+.filter_div{
+    
+    float : left;
+    display:flex;
+
+}
+.filter_div::after{
+     content: "\a";
+    white-space: pre;
+}
+
+.meta_data {
+    margin-left: 1750px;
+    margin-bottom: 40px;
+}
+
+.share_button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 105px;
+    margin-right: 40px;
+    
+}

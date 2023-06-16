@@ -1,0 +1,20 @@
+
+.pagination::before{
+    content: "\a";
+    white-space: pre;
+}
+.pagination-btn {
+    position: absolute;
+    margin-top: 400px;
+    padding-top: 200px;
+    clear : both;
+    width: 100px ;
+    position : absolute;
+    display : flex;
+    justify-content : centre;
+    align-items : centre ;
+}
+
+.prev-btn{
+    padding-top: 200px;
+}

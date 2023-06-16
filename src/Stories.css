@@ -1,0 +1,9 @@
+
+.stories-div::before{
+    content: "\a";
+    white-space: pre;
+}
+.stories-div{
+    width : 500px;
+    height : 500px;
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import {Route, Switch} from "react-router-dom";
+import Searchpage from "./Searchpage";
+import Pagination from './Pagination';
+import Stories from './Stories';
+import Modal from './Modal';
+import { useContext } from 'react';
+import {AppContext , AppProvider ,Consumer} from "./context";
 
-function App() {
+
+const App = () => {
+  const allStates = useContext(AppContext);
+  const {modalOpen} = allStates;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Searchpage/>
+    {modalOpen && <Modal/>}
+    <Stories/>
+    <Pagination/>
+
+    </>
   );
-}
+};
+
+
 
 export default App;
+
